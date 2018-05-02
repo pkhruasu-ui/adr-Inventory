@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the list of items -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/headerLayoutContainer">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="16"
+        android:text="@string/header_layout_title_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="@string/header_layout_title_quantity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:text="@string/header_layout_title_price" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_layout_title_action"
+        android:visibility="invisible" />
+
+</LinearLayout>

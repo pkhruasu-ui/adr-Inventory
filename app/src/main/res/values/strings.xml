@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake item data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all item data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="item_name">Name</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="item_price">Price</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="item_quantity">Quantity</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_name">Name</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_price">Price</string>
+    <string name="hint_item_quantity">Quantity</string>
+
+    <!-- Units for weight of the item (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_item_price">$</string>
+    <string name="unit_item_quantity">Kg</string>
+
+    <!-- Label for dropdown menu option [CHAR LIMIT=20] -->
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_1">Chromecery Inc.</string>
+    <string name="supplier_2">Fireberry Fox Co.</string>
+    <string name="supplier_3">Mozillaen Service</string>
+    <!-- static email for dropdown menu option -->
+    <string name="supplier_1_email">chromeceryinc@gmail.com</string>
+    <string name="supplier_2_email">fireberryfox@yahoo.com</string>
+    <string name="supplier_3_email">mozillaen.serve@hotmail.com</string>
+
+    <string name="editor_insert_item_failed">Error with saving item</string>
+    <string name="editor_insert_item_success">Item saved!!</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Never leave your stock empty...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a item [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Tab to add an item</string>
+    <string name="editor_update_item_success">Update success</string>
+    <string name="editor_update_item_fail">Update fail</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+    <string name="delete_all_dialog_msg">Delete all items?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+    <string name="success_delete_item">Successfully delete item</string>
+    <string name="fail_delete_item">Fail to delete item</string>
+    <string name="delete_all_entries">Delete all entries</string>
+    <string name="mode_edit_item">Edit Item</string>
+    <string name="mode_add_item">Add Item</string>
+    <string name="item_supplier">Supplier</string>
+    <string name="supplier_no_email">No email has been found for this supplier</string>
+    <string name="require_order_quantity">Please specify order quantity</string>
+    <string name="mail_quantity_order_subject">Request to order %1$s from Khruasuwan Sweet Inc.</string>
+    <string name="mail_quantity_order_amount">Amount : %1$s</string>
+    <string name="select_browser">Select browser</string>
+    <string name="mailto">mailto</string>
+    <string name="__supplier_id_constructor">supplier_%1$s_email</string>
+    <string name="header_layout_title_name">Name</string>
+    <string name="header_layout_title_quantity">Quantity</string>
+    <string name="header_layout_title_price">Price</string>
+    <string name="header_layout_title_action">Action</string>
+    <string name="placeholder_item_name">Bean</string>
+    <string name="placeholder_item_quantity">1000</string>
+    <string name="placeholder_item_price">100</string>
+    <string name="placeholder_item_sale">Sale</string>
+    <string name="success_delete_all_items">Successfully delete inventory</string>
+    <string name="fail_delete_all_items">Fail to delete inventory</string>
+</resources>
